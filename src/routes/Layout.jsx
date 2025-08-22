@@ -17,7 +17,7 @@ const Layout =()=>
                     <ul className="nav-links">
                         <li><Link to='/'>Home</Link></li>
                         <li><Link to=''>Resume</Link></li>
-                        <li><Link to=''>Contact</Link></li>
+                        <li><Link to=''>Contact Me</Link></li>
                     </ul>
                 </nav>
             </header>
