@@ -1,13 +1,12 @@
 import { useState } from 'react'
 import './App.css'
-
 function App() {
   const [count, setCount] = useState(0)
 
   return (
     <div className='home-page'>
       <div className='profile-img'>
-        <img src='' alt = 'Profile Image'/>
+        <img src='/src/assets/among-us-green.png' alt = 'Profile Image'/>
       </div>
       <div className='profile-text'>
         <h5>Hi I'm</h5>
@@ -22,7 +21,6 @@ function App() {
           <a href="#"><i className="fa-brands fa-github"></i></a>
           <a href="#"><i className="fa-brands fa-instagram"></i></a>
           <a href="#"><i className="fa-brands fa-email"></i></a>
-
         </div>
       </div>
     </div>
